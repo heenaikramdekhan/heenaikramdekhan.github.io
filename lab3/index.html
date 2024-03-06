@@ -4,49 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StyleByHeena</title>
+    <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
     <header>
       <div class="log_container">
-        <a href="#"><img src="no.png" alt=""></a>
+        <a href="#"><img class="myntra_home" src="no.png" alt=""></a>
       </div>
-      <h2>StyleByHeena</h2>
+     
       <nav class="nav_bar">
-        <ul>
-          <li>
-            <a href="#">Homme</a>
-          </li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Collection</a></li>
-          <li>
-            <a href="#">Sale <sup class="supscript">New</sup></a>
-          </li>
-          <li>
-            <a href="#">About us </a>
-          </li>
-        </ul>
+        
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Collection</a>
+        <a href="#">Sale <sup class="supscript">New</sup></a>
+        <a href="#">About us </a>
+          
+      
       </nav>
 
     <main>
 
       <section>
-        <h3>Welcome to Heena Fashion</h1>
         
-        <p>Discover the latest trends in fashion for  <mark>women</mark>,<mark>men</mark>, and <mark>kids</mark>.</p>
+          <div class="category_heading">
+            
+            Welcome to Heena Fashion
+        </div>
+        
+        <div class="cat_heading">
+            
+          Discover the latest trends in fashion for  <mark>women</mark>,<mark>men</mark>, and <mark>kids</mark>.
+      </div>
+        
       </section>
 
       <audio controls>
         <source src="good-day-good-mood-10461.mp3" type="audio/mp3">
         Your browser does not support the audio tag.
       </audio>
-      <p>Join on <time>datetime="2024-02-29">February 29, 2024</time> for our Spring Collection Launch.</p>
+
+      <div class="category_items">
+        <a href="#">
+            <img class="sales_items" src="categories/1.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/10.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/2.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/3.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/5.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/6.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/7.jpg">
+        </a>
+        <a href="#">
+            <img class="sales_items" src="categories/8.jpg">
+        </a>
+        
+        </a>
+
+    </div>
+      <p class="time">Join on <time>datetime="2024-02-29">February 29, 2024</time> for our Spring Collection Launch.</p>
       
-      <video controls width="400">
-        <source src="v1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <div class="ved">
+        <video controls width="400">
+          <source src="v1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+      </div>
       
-      <div>
+      
+      <div class="form">
         <form action="/submit-form" method="post">
           <label for="newsletter">Subscribe to our newsletter:</label>
           <input type="email" id="newsletter" name="email" placeholder="Enter your email" required>
