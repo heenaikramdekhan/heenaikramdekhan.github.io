@@ -1,77 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heena Ikram - Resume</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/feather-icons"></script>
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 profile">
-        <div class="profile_container">
-         <div class="profile_profileImg">
-            <img src="pic1.jpg" alt="Heena Ikram">
-          </div>
-          <div>
-            <h1 class="profile_name">Heena Ikram</h1>
-            <p class="profile_title">Web Developer</p>
-            <p class="description profile_description">
-              Proficient web developer with expertise in front-end technologies such as HTML5, CSS3, and JavaScript... (add a short bio)
-            </p>
-            <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf">Download Resume</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="profile">
+            <div class="profile_container">
+              <div class="profile_profileImg">
+                <img src="pic1.jpg" alt="Heena" />
+              </div>
+              <div>
+                <h1 class="profile_name">
+                  <span class="profile_name_firstName">Heena</span>
+                  <span class="profile_name_lastName">Ikram</span>
+                </h1>
+                <p class="profile_title">Web DEVELOPER</p>
+                <p class="description profile_description">
+                  Proficient web developer with expertise in front-end
+                  technologies such as HTML5, CSS3, and JavaScript, coupled with
+                  a strong understanding of modern frameworks like React.js and
+                  Angular. Skilled in crafting responsive and visually appealing
+                  user interfaces to enhance user experience,
+                </p>
+                <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
           </div>
         </div>
-      </div> 
-
-      <div class="col-md-8">
-        <div class="row group-1"> 
-          <div class="col-md-6 skills">
-            <h3 class="title">Expertise</h3>
-               <ul class="skills_list description">
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="group-1">
+            <div class="skills">
+              <h3 class="title">Expertise</h3>
+              <ul class="skills_list description">
                 <li>JavaScript</li>
                 <li>PHP & Wordpress</li>
-                <li>HTML & CSS</li>
+                <li>HTML CSS</li>
                 <li>React JS</li>
                 <li>Node.js</li>
               </ul>
-           </div>
-          <div class="col-md-6 ref">
-            <h3 class="title">References</h3>
             </div>
-       </div>
+            <div class="ref">
+              <h3 class="title">Reference</h3>
+              <div class="ref_item">
+                <h4 class="ref_name">John Doe</h4>
+                <p class="description">
+                  Senior Web Developer ABC Web Solutions johndoe@example.comb
+                  <br />
+                  (555) 123-4567
+                </p>
+              </div>
+              <div class="ref_item">
+                <h4 class="ref_name">Jane Smith</h4>
+                <p class="description">
+                  Lead Developer XYZ Tech Solutions janesmith@example.com <br />
+                  (555) 987-6543
+                </p>
+              </div>
+            </div>
 
-       <div class="row group-2">
-        <div class="col-md-6 exp">
-          <h3 class="title">Experience</h3>
+            <div class="edu">
+              <h3 class="title">Education</h3>
+              <div class="edu_item">
+                <p class="item_preTitle"></p>
+                <h4 class="item_title">BS in CS</h4>
+                <p class="item_subtitle">
+                  National University of Science & Technology (NUST)
+                </p>
+              </div>
+              <div class="edu_item">
+                <p class="item_preTitle">2020-2024</p>
+                <h4 class="item_title">Intermediate</h4>
+                <p class="item_subtitle">Aga Khan School</p>
+              </div>
             </div>
-        <div class="col-md-6 awards">
-          <h3 class="title">Awards</h3>
+
+            <div class="certification">
+              <h3 class="title">certification</h3>
+              <div class="certification_item">
+                <p class="item_preTitle">2023</p>
+                <h4 class="item_title">Frontend Developer</h4>
+                <p class="description">
+                  Awarded by the Frontend Masters Institute, validating
+                  proficiency in modern front-end technologies and frameworks
+                  including HTML5, CSS3, JavaScript, and popular libraries like
+                  React.js and Vue.js
+                </p>
+                <br />
+                <br />
+                <br />
+
+                <p class="item_preTitle">2024</p>
+                <h4 class="item_title">
+                  Front-End Web Development Certificate
+                </h4>
+                <p class="description">
+                  Granted by the International Association of Web Developers
+                  (IAWD), this certification showcases expertise in front-end
+                  technologies such as HTML5, CSS3, JavaScript, and responsive
+                  design principles
+                </p>
+              </div>
+            </div>
           </div>
-     </div>
-
-      <div class="row group-3">
-        <div class="col-md-6 contact">
-          <h3 class="title">Contact</h3>
-          <p class="description">Gilgit, Pakistan</p>
-          <p class="description">+880 ** *** ***</p>
-          <p class="description">hina.ikram588@hmail.com</p>
         </div>
-        <div class="col-md-6 social">
-          <h3 class="title">Socials</h3>
-          <div class="social_items">
-            <a href="#" target="_blank" class="social_item">
-              <i data-feather="github"></i>
-              <span>/heenaikramdekhan</span>
-            </a>
+        <div class="col-6">
+          <div class="group-2">
+            <div class="exp">
+              <h3 class="title">Experience</h3>
+              <div class="exp_item">
+                <p class="item_preTitle">2019 - present</p>
+                <h4 class="item_title">TechSolutions Co</h4>
+                <p class="item_subtitle">Frontend Developer</p>
+                <p class="description">
+                  As a Frontend Developer at TechSolutions Co., I specialize in
+                  crafting immersive user experiences through the implementation
+                  of modern front-end technologies. Collaborating closely with
+                  design and back-end teams, I translate UI/UX designs into
+                  high-quality, responsive web applications.
+                </p>
+              </div>
+              <div class="exp_item">
+                <p class="item_preTitle">2017 - 2019</p>
+                <h4 class="item_title">WebWorks LLC</h4>
+                <p class="item_subtitle">Frontend Developer</p>
+                <p class="description">
+                  At WebWorks LLC, I am responsible for spearheading frontend
+                  development initiatives, leveraging cutting-edge technologies
+                  to deliver seamless user experiences.
+                </p>
+              </div>
             </div>
-         </div>
+            <div class="awards">
+              <h3 class="title">Awards</h3>
+              <div class="awards_item">
+                <p class="item_preTitle">2019</p>
+                <h4 class="item_title">TechSolutions Co. Innovation Award</h4>
+                <p class="description">
+                  Recognized for innovative contributions to web development
+                  projects, demonstrating exceptional problem-solving skills and
+                  creativity in implementing user-centric solutions.
+                </p>
+              </div>
+              <div class="awards_item">
+                <p class="item_preTitle">2018</p>
+                <h4 class="item_title">
+                  WebWorks LLC Design Excellence Award.
+                </h4>
+                <p class="description">
+                  Awarded for exemplary proficiency in frontend design
+                  principles, including UI/UX optimization, responsive layouts,
+                  and accessibility enhancements, resulting in enhanced user
+                  engagement and satisfaction.
+                </p>
+              </div>
+            </div>
+
+            <div class="interest">
+              <h3 class="title">Interest</h3>
+              <div class="interest_items">
+                <div class="interest_item">
+                  <i data-feather="music"></i>
+                  <span>Music</span>
+                </div>
+                <div class="interest_item">
+                  <i data-feather="book"></i>
+                  <span>Books</span>
+                </div>
+                <div class="interest_item">
+                  <i data-feather="map"></i>
+                  <span>Travel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div> </div> <script>
-    feather.replace();
-  </script>
-</body>
+      <hr />
+      <div class="row">
+        <div class="col-6">
+          <div class="group-3">
+            <div class="contact">
+              <h3 class="title">Contact</h3>
+              <div class="contact_info">
+                <p class="description">Gilgit, Pakistan</p>
+                <p class="description">+880 ** *** ***</p>
+                <p class="description">hina.ikram588@hmail.com</p>
+              </div>
+            </div>
+            <div class="social">
+              <h3 class="title">Socials</h3>
+              <div class="social_items">
+                <a href="#" target="_b" class="social_item">
+                  <i data-feather="github"></i>
+                  <span>/heenaikramdekhan</span>
+                </a>
+                <a href="#" target="_blank" class="social_item">
+                  <i data-feather="twitter"></i>
+                  <span>/HinaIkram</span>
+                </a>
+                <a href="#" target="_blank" class="social_item">
+                  <i data-feather="linkedin"></i>
+                  <span>/heena ikram</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">Column 1 (spanning 6 columns)</div>
+              <div class="col-6">Column 2 (spanning 6 columns)</div>
+            </div>
+            <div class="row">
+              <div class="col-4">Column 3 (spanning 4 columns)</div>
+              <div class="col-4">Column 4 (spanning 4 columns)</div>
+              <div class="col-4">Column 5 (spanning 4 columns)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
